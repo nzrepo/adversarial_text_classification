@@ -26,7 +26,7 @@ early-stop机制：验证集loss超过1000个batch没下降，结束训练
 | baseline  | / |
 | FGSM  | epsilon=0.02 |
 | PGD  | K=3, epsilon=0.02 |
-| Free  | K=5, epsilon=0.02 |
+| Free  | K=3, epsilon=0.02 |
 
 ### 实验结果
 |  方法   | PRECISION  |  RECALL  |  F1-SCORE  | 
