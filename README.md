@@ -36,8 +36,19 @@ early-stop机制：验证集loss超过1000个batch没下降，结束训练
 | PGD  | 91.01% |  91.01%  |  91%  |
 | Free  | 88.07% |  88.06%  |  88.03%  |  
 
+ 
+
 各方法的准确率收敛曲线：  
 ![image](https://user-images.githubusercontent.com/102469274/160290049-ab221359-974a-4fc4-8162-e0c81bbc7619.png)
+
+
+## 运行
+python run_adv.py 
+
+### requirements
+<li>pytorch  
+<li>tensorboardX  
+<li>sklearn  
 
 ## 参考文献
 [1] [炼丹技巧】功守道：NLP中的对抗训练 + PyTorch实现](https://zhuanlan.zhihu.com/p/91269728)  
